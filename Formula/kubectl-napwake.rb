@@ -3,28 +3,28 @@
 class KubectlNapwake < Formula
   desc "Find idle Kubernetes workloads, and pause and wake them with Napwake"
   homepage "https://github.com/napwake/napwake"
-  version "0.2.0-rc.11"
+  version "0.2.0-rc.13"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/napwake/napwake/releases/download/v0.2.0-rc.11/kubectl-napwake-darwin-arm64.tar.gz"
-      sha256 "e581eceab1d199f2ef218dd36b081df92bd53eb9e195ecfbbb7531823abef03e"
+      url "https://github.com/napwake/napwake/releases/download/v0.2.0-rc.13/kubectl-napwake-darwin-arm64.tar.gz"
+      sha256 "7f428afec8247bb643caee77e4039ee1e28a9b313d8246e1bd2c140a988db66e"
     end
     on_intel do
-      url "https://github.com/napwake/napwake/releases/download/v0.2.0-rc.11/kubectl-napwake-darwin-amd64.tar.gz"
-      sha256 "f965bd0e82d4d2b8122b89243a0eae90b893a685a47ea8f7bf005107dfaf9b2b"
+      url "https://github.com/napwake/napwake/releases/download/v0.2.0-rc.13/kubectl-napwake-darwin-amd64.tar.gz"
+      sha256 "2d92675b3916adae16f01675f1aa136a539396fc656a4849c95ccbf16c2687db"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/napwake/napwake/releases/download/v0.2.0-rc.11/kubectl-napwake-linux-arm64.tar.gz"
-      sha256 "7090afa179e1a42be3fb80267bdad5777bf13403b802155728c8d7a9082aaeba"
+      url "https://github.com/napwake/napwake/releases/download/v0.2.0-rc.13/kubectl-napwake-linux-arm64.tar.gz"
+      sha256 "3797bdfe5ccf372ff0fab4a5441dc59f453770eea1a22d1e2bb3d152361fe496"
     end
     on_intel do
-      url "https://github.com/napwake/napwake/releases/download/v0.2.0-rc.11/kubectl-napwake-linux-amd64.tar.gz"
-      sha256 "f9c1a6f0fbe732bdaec33019ad626d9ff96951365c1e69653e24d0bdc5f2e8f0"
+      url "https://github.com/napwake/napwake/releases/download/v0.2.0-rc.13/kubectl-napwake-linux-amd64.tar.gz"
+      sha256 "239b0fa7af9dead42f32c765e14e48d1a7abb5afbe0663aa033821c335fb4543"
     end
   end
 
